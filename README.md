@@ -1,6 +1,6 @@
 # PCstation
 
-- *pacotes*
+*pacotes*
   - nvidia-driver
   - xinit
   - dbus-x11
@@ -22,7 +22,7 @@
   - htop
   - stow
   - fonts-jetbrains-mono
-  - flatpak
+*flatpak*
 	- flatseal
 	- firefox
     - reaper
@@ -30,34 +30,33 @@
 	- discord
 	- lutris
 	- steam	
-  - snapd
-    - nextcloud
-
-*a fazer*
-- login automatico
+	
+0. *a fazer*
+- login automatico e grub 0
 - ~~workspace especifico de janela~~
 - ~~hotkey do systemctl suspend e poweroff~~
-- devo usar snaps/flatpaks/appimages?
 - ~~reaper funcionando com o pipewire-jack~~
 - gtk icon e cursor themes
 - ssh configurado
 - nextcloud self-host
 - shell script para instalar
 
-## *sistema*
+1. *sistema*
 - instalação mínima do *debian*
 - sources.list com contrib, non-free e backports
-- dpkg --add-architecture i386
+- ~~dpkg --add-architecture i386~~ 
 - nvidia-driver
 - reboot
 
-## *área de trabalho*
+2. *área de trabalho*
 - xinit dbus-x11 
 - i3-wm i3blocks alacritty
 
-## *configurações*
+3. *configurações*
 - stow
-  - $HOME/.xinitrc
+  - xinit/.xinitrc
+  - icons/.icons
+  - themes/.themes
   - picom/picom.conf
   - redshift/redshift.conf
   - alacritty/alacritty.yml
@@ -65,3 +64,10 @@
   - i3blocks/config
   - rofi/config.rasi
   - emacs/.emacs
+  - gtk/settings.ini
+  - gtkrc/.gtkrc-2.0 
+
+4. *flatpak*
+- apt install flatpak
+  - flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+  - flatpak install --user flatseal steam lutris discord dolphin reaper firefox
