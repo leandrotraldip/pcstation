@@ -22,16 +22,9 @@
   - htop
   - stow
   - fonts-jetbrains-mono
-*flatpak*
-	- flatseal
-	- firefox
-    - reaper
-	- dolphin
-	- discord
-	- lutris
-	- steam	
-	
-0. *a fazer*
+  - flatpak
+  
+### *a fazer*
 - login automatico e grub 0
 - ~~workspace especifico de janela~~
 - ~~hotkey do systemctl suspend e poweroff~~
@@ -41,18 +34,18 @@
 - nextcloud self-host
 - shell script para instalar
 
-1. *sistema*
+## *sistema*
 - instalação mínima do *debian*
 - sources.list com contrib, non-free e backports
 - ~~dpkg --add-architecture i386~~ 
 - nvidia-driver
 - reboot
 
-2. *área de trabalho*
+## *área de trabalho*
 - xinit dbus-x11 
 - i3-wm i3blocks alacritty
 
-3. *configurações*
+## *configurações*
 - stow
   - xinit/.xinitrc
   - icons/.icons
@@ -67,7 +60,7 @@
   - gtk/settings.ini
   - gtkrc/.gtkrc-2.0 
 
-4. *flatpak*
+## *flatpak*
 - apt install flatpak
   - flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
   - flatpak install --user flatseal steam lutris discord dolphin reaper firefox
