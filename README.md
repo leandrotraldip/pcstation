@@ -32,7 +32,7 @@
 - gtk icon e cursor themes
 - ssh configurado
 - nextcloud self-host
-- shell script para instalar
+- shell script do apt, flatpak e stow
 
 ## *sistema*
 - instalação mínima do *debian*
@@ -58,9 +58,15 @@
   - rofi/config.rasi
   - emacs/.emacs
   - gtk/settings.ini
-  - gtkrc/.gtkrc-2.0 
 
 ## *flatpak*
-- apt install flatpak
-  - flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-  - flatpak install --user flatseal steam lutris discord dolphin reaper firefox
+- flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+- flatpak install --user
+  - flatseal
+  - firefox ungoogled-chromium
+  - steam lutris discord
+  - reaper vlc
+  - dolphin transmission
+
+  
+
