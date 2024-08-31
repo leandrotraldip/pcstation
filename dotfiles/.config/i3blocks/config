@@ -1,0 +1,11 @@
+[time]
+command=date '+%H:%M » '
+interval=5
+min_width=1920
+align=right
+
+[clickme]
+full_text= ð 
+command=systemctl suspend
+align=left
+
