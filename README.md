@@ -29,7 +29,7 @@
 - ~~workspace especifico de janela~~
 - ~~hotkey do systemctl suspend e poweroff~~
 - ~~reaper funcionando com o pipewire-jack~~
-- gtk icon e cursor themes
+- ~~gtk icon e cursor themes~~
 - ssh configurado
 - rsync fazendo backup no ssd externo
 - nextcloud self-host
@@ -48,16 +48,17 @@
 
 ## *configurações*
 - xinit/.xinitrc
-- icons/.icons
-- themes/.themes
-- picom/picom.conf
-- redshift/redshift.conf
-- alacritty/alacritty.yml
 - i3/config
 - i3blocks/config
-- rofi/config.rasi
 - emacs/.emacs
+- alacritty/alacritty.yml
+- picom/picom.conf
+- redshift/redshift.conf
+- rofi/config.rasi
 - gtk/settings.ini
+- icons/.icons
+- themes/.themes
+- wallpapers/Imagens
   
 ## *flatpak*
 - flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
