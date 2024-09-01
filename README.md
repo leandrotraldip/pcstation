@@ -4,7 +4,6 @@
   - nvidia-driver
   - xinit
   - dbus-x11
-  - x11-utils
   - i3-wm
   - i3blocks
   - alacritty
@@ -21,8 +20,9 @@
   - xwallpaper
   - htop
   - stow
-  - fonts-jetbrains-mono
+  - rsync
   - flatpak
+  - fonts-jetbrains-mono
   
 ### *a fazer*
 - login automatico e grub 0
@@ -31,11 +31,12 @@
 - ~~reaper funcionando com o pipewire-jack~~
 - gtk icon e cursor themes
 - ssh configurado
+- rsync fazendo backup no ssd externo
 - nextcloud self-host
 - shell script do apt, flatpak e stow
 
 ## *sistema*
-- instalação mínima do *debian*
+- instalação mínima do *debian* no ssd de 240gb( /efi, /root , /home, /swap)
 - sources.list com contrib, non-free e backports
 - ~~dpkg --add-architecture i386~~ 
 - nvidia-driver

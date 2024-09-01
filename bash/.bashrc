@@ -60,3 +60,7 @@ fi
 # paths
 export PATH="$PATH:/home/leandro/.local/bin"
 export DBUS_SESSION_BUS_ADDRESS="unix:path=$XDG_RUNTIME_DIR/bus"
+
+# aliases
+alias l="ls -l"
+alias la="ls -la"
