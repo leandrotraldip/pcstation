@@ -46,19 +46,18 @@
 - i3-wm i3blocks alacritty
 
 ## *configurações*
-- stow
-  - xinit/.xinitrc
-  - icons/.icons
-  - themes/.themes
-  - picom/picom.conf
-  - redshift/redshift.conf
-  - alacritty/alacritty.yml
-  - i3/config
-  - i3blocks/config
-  - rofi/config.rasi
-  - emacs/.emacs
-  - gtk/settings.ini
-
+- xinit/.xinitrc
+- icons/.icons
+- themes/.themes
+- picom/picom.conf
+- redshift/redshift.conf
+- alacritty/alacritty.yml
+- i3/config
+- i3blocks/config
+- rofi/config.rasi
+- emacs/.emacs
+- gtk/settings.ini
+  
 ## *flatpak*
 - flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 - flatpak install --user
@@ -66,7 +65,9 @@
   - firefox ungoogled-chromium
   - steam lutris discord
   - reaper vlc
-  - dolphin transmission
+  - transmission
+  - dolphin
+
 
   
 
