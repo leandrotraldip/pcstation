@@ -69,7 +69,3 @@
   - reaper vlc
   - transmission
   - dolphin
-
-
-  
-

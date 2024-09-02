@@ -5,21 +5,22 @@
 # base
 apt install -y nvidia-driver xinit dbus-x11
 
-# sistema
-apt install -y --no-install-recommends i3-wm i3blocks alacritty rofi
-
-# emacs e git
-apt install -y --no-install-recommends emacs git rsync
-
-# qualidade
-apt install -y --no-install-recommends picom redshift xwallpaper
+# git
+apt install -y --no-install-recommends emacs git stow rsync
 
 # audio
 apt install wireplumber pipewire-audio-clients-libraries libspa-0.2-jack pulsemixer
 systemctl --user --now enable wireplumber.service
+mkdir /usr/share/pipewire/media-session.d
 touch /usr/share/pipewire/media-session.d/with-jack
 cp /usr/share/doc/pipewire/examples/ld.so.conf.d/pipewire-jack-*.conf /etc/ld.so.conf.d/
-ldconfig
+sudo ldconfig
+
+# sistema
+apt install -y --no-install-recommends i3-wm i3blocks alacritty rofi 
+
+# qualidade
+apt install -y --no-install-recommends picom redshift xwallpaper fonts-jetbrains-mono
 
 # stow
 cd $HOME/pcstation
