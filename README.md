@@ -10,7 +10,6 @@
   - rofi
   - emacs
   - git
-  - gnome-disks
   - wireplumber
   - pipewire-audio-clients-libraries
   - libspa-0.2-jack
@@ -34,6 +33,7 @@
 - rsync fazendo backup no ssd externo
 - nextcloud self-host
 - shell script do apt, flatpak e stow
+- editar fstab para o ssd de 720gb montar com o sistema
 
 ## *sistema*
 - instalação mínima do *debian* no ssd de 240gb( /efi, /root , /home, /swap)
