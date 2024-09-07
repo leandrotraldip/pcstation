@@ -38,7 +38,7 @@
 - nextcloud self-host
 - shell script do apt, flatpak e stow
 - editar fstab para o ssd de 720gb montar com o sistema
-- shell script para montar pendrives
+- montar pendrives pelo mount
 
 ## *sistema*
 - instalação mínima do *debian* no ssd de 240gb( /efi, /root , /home, /swap)
@@ -61,9 +61,9 @@
 - redshift/redshift.conf
 - rofi/config.rasi
 - gtk/settings.ini
-- icons/.icons
-- themes/.themes
-- wallpapers/Imagens
+- icons/default
+- themes/arc-dark
+- wallpapers/darkest
   
 ## *flatpak*
 - flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
