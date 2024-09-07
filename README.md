@@ -17,6 +17,10 @@
   - picom
   - redshift
   - xwallpaper
+  - sxiv
+  - mpv
+  - zathura
+  - transmission-cli
   - htop
   - stow
   - rsync
@@ -34,6 +38,7 @@
 - nextcloud self-host
 - shell script do apt, flatpak e stow
 - editar fstab para o ssd de 720gb montar com o sistema
+- shell script para montar pendrives
 
 ## *sistema*
 - instalação mínima do *debian* no ssd de 240gb( /efi, /root , /home, /swap)
@@ -66,6 +71,4 @@
   - flatseal
   - firefox ungoogled-chromium
   - steam lutris discord
-  - reaper vlc
-  - transmission
-  - dolphin
+  - reaper
