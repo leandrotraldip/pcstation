@@ -1,18 +1,19 @@
 # PCstation
 
 ## *a fazer*
-- [ ] login automatico e grub 0
+- [x] login automatico e grub 0
 - [x] workspace especifico de janela
-- ~~hotkey do systemctl suspend e poweroff~~
-- ~~reaper funcionando com o pipewire-jack~~
-- ~~temas e ícones~~
-- ssh configurado
-- rsync fazendo backup no ssd externo com cron
-- nextcloud self-host
-- editar fstab para o ssd de 720gb montar com o sistema
-- existe forma facil de montar pendrives pelo mount?
-- shell script do apt, flatpak e stow
-- flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+- [x] hotkey do systemctl suspend e poweroff
+- [x] reaper funcionando com o pipewire-jack
+- [x] temas e ícones
+- [ ] ssh configurado
+- [ ] rsync fazendo backup no ssd externo com cron
+- [ ] nextcloud self-host
+- [ ] domínio e hospedagem
+- [ ] editar fstab para o ssd de 720gb montar com o sistema
+- [ ] existe forma facil de montar pendrives pelo mount?
+- [ ] shell script do apt, flatpak e stow
+- [ ] flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 ## *pacotes*
 
