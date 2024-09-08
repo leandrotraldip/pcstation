@@ -16,7 +16,6 @@
  ;; If there is more than one, they won't work right.
  '(default ((t (:family "JetBrains Mono" :foundry "JB" :slant normal :weight normal :height 117 :width normal)))))
 
-
 (menu-bar-mode 0)
 (scroll-bar-mode 0)
 (tool-bar-mode 0)

@@ -1,7 +1,7 @@
 # PCstation
 
 ## *a fazer*
-- [x] login automatico e grub 0
+- [ ] login automatico e grub 0
 - [x] workspace especifico de janela
 - [x] hotkey do systemctl suspend e poweroff
 - [x] reaper funcionando com o pipewire-jack
@@ -55,8 +55,6 @@
 ## *sistema*
 - instalação mínima do *debian* no ssd de 240gb( /efi, /root , /home, /swap)
 - sources.list com contrib, non-free e backports
-- ~~dpkg --add-architecture i386~~ 
-- nvidia-driver
 
 ## *configurações*
 - xinit/.xinitrc
