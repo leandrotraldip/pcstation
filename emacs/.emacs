@@ -32,6 +32,7 @@
 
 (define-key global-map (kbd "M-p o") "|")
 
-
+;; (desktop-read "$HOME/.emacs.d/.emacs.desktop")
+(desktop-save-mode 1)
 
 
