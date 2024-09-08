@@ -2,11 +2,8 @@
 
 # comandos para instalação
 
-# base
-apt install -y nvidia-driver xinit dbus-x11
-
-# git
-apt install -y --no-install-recommends emacs git stow rsync
+# primeiros passos
+apt install -y nvidia-driver xinit dbus-x11 
 
 # audio
 apt install wireplumber pipewire-audio-clients-libraries libspa-0.2-jack pulsemixer
@@ -16,20 +13,26 @@ touch /usr/share/pipewire/media-session.d/with-jack
 cp /usr/share/doc/pipewire/examples/ld.so.conf.d/pipewire-jack-*.conf /etc/ld.so.conf.d/
 sudo ldconfig
 
+# reboot
+systemctl reboot
+
 # sistema
-apt install -y --no-install-recommends i3-wm i3blocks alacritty rofi 
+apt install -y --no-install-recommends i3-wm i3blocks rofi emacs git  
 
 # qualidade
-apt install -y --no-install-recommends picom redshift xwallpaper fonts-jetbrains-mono
+apt install -y --no-install-recommends stow picom redshift xwallpaper htop fonts-jetbrains-mono
+
+# multimidia
+apt install -y --no-install-recommends mpv sxiv zathura transmission-cli rsync
 
 # stow
 cd $HOME/pcstation
-stow alacritty bash emacs gtk i3 i3blocks picom redshift rofi xinit
+stow emacs i3 i3blocks xinit picom redshift rofi gtk
 
 # flatpak
 apt install -y --no-install-recommends flatpak
 flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak install --user flatseal firefox steam lutris discord reaper vlc transmission dolphin
+flatpak install --user flatseal firefox ungoogled-chromium steam lutris discord reaper 
 
 
 

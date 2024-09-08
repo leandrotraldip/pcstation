@@ -1,6 +1,8 @@
 # PCstation
 
-*pacotes*
+## *pacotes*
+
+*apt*
   - nvidia-driver
   - xinit
   - dbus-x11
@@ -23,17 +25,19 @@
   - htop
   - stow
   - rsync
-  - flatpak
   - fonts-jetbrains-mono
+  - flatpak
     
 *flatpak*
   - flatseal 
-  - firefox ungoogled-chromium
-  - steam lutris discord 
+  - firefox
+  - ungoogled-chromium
+  - steam
+  - lutris
+  - discord 
   - reaper
-
   
-### *a fazer*
+## *a fazer*
 - login automatico e grub 0
 - ~~workspace especifico de janela~~
 - ~~hotkey do systemctl suspend e poweroff~~
