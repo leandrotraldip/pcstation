@@ -27,10 +27,10 @@
   - fonts-jetbrains-mono
   
 ## *flatpak*
-  - flatseal \ *gerenciador de permissões do flatpak*
-  - firefox ungoogled-chromium \ *navegador web*
-  - steam lutris discord \ *jogos*
-  - reaper \ *música*
+  - flatseal 
+  - firefox ungoogled-chromium
+  - steam lutris discord 
+  - reaper
 
   
 ### *a fazer*
@@ -40,13 +40,14 @@
 - ~~reaper funcionando com o pipewire-jack~~
 - ~~gtk icon e cursor themes~~
 - ssh configurado
-- rsync fazendo backup no ssd externo
+- rsync fazendo backup no ssd externo com cron
 - nextcloud self-host
-- shell script do apt, flatpak e stow
 - editar fstab para o ssd de 720gb montar com o sistema
 - montar pendrives pelo mount
-- flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-- flatpak install --user
+- shell script do apt e stow
+- script para o flatpak
+  - flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+  - flatpak install --user
 
 
 ## *sistema*
@@ -58,7 +59,7 @@
 
 ## *área de trabalho*
 - xinit dbus-x11 
-- i3-wm i3blocks alacritty
+- i3-wm i3blocks emacs
 
 ## *configurações*
 - xinit/.xinitrc
