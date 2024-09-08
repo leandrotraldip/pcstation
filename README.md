@@ -6,7 +6,6 @@
   - dbus-x11
   - i3-wm
   - i3blocks
-  - alacritty
   - rofi
   - emacs
   - git
@@ -27,6 +26,13 @@
   - flatpak
   - fonts-jetbrains-mono
   
+## *flatpak*
+  - flatseal \ *gerenciador de permissões do flatpak*
+  - firefox ungoogled-chromium \ *navegador web*
+  - steam lutris discord \ *jogos*
+  - reaper \ *música*
+
+  
 ### *a fazer*
 - login automatico e grub 0
 - ~~workspace especifico de janela~~
@@ -39,6 +45,9 @@
 - shell script do apt, flatpak e stow
 - editar fstab para o ssd de 720gb montar com o sistema
 - montar pendrives pelo mount
+- flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+- flatpak install --user
+
 
 ## *sistema*
 - instalação mínima do *debian* no ssd de 240gb( /efi, /root , /home, /swap)
@@ -63,12 +72,5 @@
 - gtk/settings.ini
 - icons/default
 - themes/arc-dark
-- wallpapers/darkest
+- wallpapers/wallpapers
   
-## *flatpak*
-- flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-- flatpak install --user
-  - flatseal
-  - firefox ungoogled-chromium
-  - steam lutris discord
-  - reaper
