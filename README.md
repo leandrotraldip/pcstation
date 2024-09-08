@@ -1,11 +1,11 @@
 # PCstation
 
 ## *a fazer*
-- login automatico e grub 0
-- ~~workspace especifico de janela~~
+- [ ] login automatico e grub 0
+- [x] workspace especifico de janela
 - ~~hotkey do systemctl suspend e poweroff~~
 - ~~reaper funcionando com o pipewire-jack~~
-- ~~gtk icon e cursor themes~~
+- ~~temas e ícones~~
 - ssh configurado
 - rsync fazendo backup no ssd externo com cron
 - nextcloud self-host
