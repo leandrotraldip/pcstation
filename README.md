@@ -25,8 +25,8 @@
   - rsync
   - flatpak
   - fonts-jetbrains-mono
-  
-## *flatpak*
+    
+*flatpak*
   - flatseal 
   - firefox ungoogled-chromium
   - steam lutris discord 
@@ -43,11 +43,9 @@
 - rsync fazendo backup no ssd externo com cron
 - nextcloud self-host
 - editar fstab para o ssd de 720gb montar com o sistema
-- montar pendrives pelo mount
+- shell script para montar  pendrives pelo mount
 - shell script do apt e stow
-- script para o flatpak
-  - flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-  - flatpak install --user
+- flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 
 
 ## *sistema*

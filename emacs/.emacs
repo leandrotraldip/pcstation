@@ -29,3 +29,9 @@
 ;;disable splash screen and startup message
 (setq inhibit-startup-message t) 
 (setq initial-scratch-message nil)
+
+(define-key global-map (kbd "M-p o") "|")
+
+
+
+
