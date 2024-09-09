@@ -13,9 +13,6 @@ touch /usr/share/pipewire/media-session.d/with-jack
 cp /usr/share/doc/pipewire/examples/ld.so.conf.d/pipewire-jack-*.conf /etc/ld.so.conf.d/
 sudo ldconfig
 
-# reboot
-systemctl reboot
-
 # xorg
 xinit dbus-x11 
 
@@ -23,10 +20,13 @@ xinit dbus-x11
 apt install -y --no-install-recommends i3-wm i3blocks rofi emacs git  
 
 # qualidade
-apt install -y --no-install-recommends stow picom redshift xwallpaper htop fonts-jetbrains-mono
+apt install -y --no-install-recommends stow picom redshift xwallpaper fonts-jetbrains-mono
 
 # multimidia
-apt install -y --no-install-recommends mpv sxiv zathura rsync transmission-cli 
+apt install -y --no-install-recommends mpv sxiv zathura transmission-cli 
+
+# utilidades
+apt install -y --no-install-recommends rsync htop psensor
 
 # stow
 cd $HOME/pcstation
@@ -37,9 +37,5 @@ apt install -y --no-install-recommends flatpak
 flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
 flatpak install --user flatseal firefox ungoogled-chromium steam lutris discord reaper 
 
-
-
-
-
-
-
+# reboot
+systemctl reboot

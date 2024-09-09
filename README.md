@@ -37,9 +37,10 @@
   - mpv
   - zathura
   - transmission-cli
-  - htop
-  - stow
   - rsync
+  - htop
+  - psensor
+  - stow
   - fonts-jetbrains-mono
   - flatpak
     
