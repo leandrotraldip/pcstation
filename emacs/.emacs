@@ -6,7 +6,7 @@
  '(custom-enabled-themes '(dracula))
  '(custom-safe-themes
    '("603a831e0f2e466480cdc633ba37a0b1ae3c3e9a4e90183833bc4def3421a961" "fee7287586b17efbfda432f05539b58e86e059e78006ce9237b8732fde991b4c" default))
- '(package-selected-packages '(python markdown-mode magit dracula-theme)))
+ '(package-selected-packages '(fzf python markdown-mode magit dracula-theme)))
 (add-to-list 'package-archives
              '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 (custom-set-faces
@@ -32,6 +32,6 @@
 (define-key global-map (kbd "M-p o") "|")
 
 ;; (desktop-read "$HOME/.emacs.d/.emacs.desktop")
-(desktop-save-mode 1)
+;; (desktop-save-mode 1)
 
 

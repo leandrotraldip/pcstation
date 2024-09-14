@@ -14,7 +14,7 @@ cp /usr/share/doc/pipewire/examples/ld.so.conf.d/pipewire-jack-*.conf /etc/ld.so
 sudo ldconfig
 
 # xorg
-xinit dbus-x11 
+apt install -y xinit dbus-x11 
 
 # sistema
 apt install -y --no-install-recommends i3-wm i3blocks rofi emacs git  

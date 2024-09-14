@@ -47,7 +47,6 @@
 *flatpak*
   - flatseal 
   - firefox
-  - ungoogled-chromium
   - steam
   - lutris
   - discord 
