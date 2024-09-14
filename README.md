@@ -12,8 +12,26 @@
 - [ ] domínio e hospedagem
 - [ ] editar fstab para o ssd de 720gb montar com o sistema
 - [ ] existe forma facil de montar pendrives pelo mount?
-- [ ] shell script do apt, flatpak e stow
-- [ ] flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+- [x] shell script do apt, flatpak e stow
+- [x] flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+
+## *sistema*
+- instalação mínima do *debian* no ssd de 240gb( /efi, /root , /home, /swap)
+- sources.list com contrib, non-free e backports
+
+## *configurações*
+- xinit/.xinitrc
+- i3/config
+- i3blocks/config
+- emacs/.emacs
+- picom/picom.conf
+- redshift/redshift.conf
+- rofi/config.rasi
+- gtk/settings.ini
+- icons/default
+- themes/arc-dark
+- wallpapers/wallpapers
+- firefox/chrome
 
 ## *pacotes*
 
@@ -39,7 +57,6 @@
   - transmission-cli
   - rsync
   - htop
-  - psensor
   - stow
   - fonts-jetbrains-mono
   - flatpak
@@ -52,20 +69,3 @@
   - discord 
   - reaper
 
-## *sistema*
-- instalação mínima do *debian* no ssd de 240gb( /efi, /root , /home, /swap)
-- sources.list com contrib, non-free e backports
-
-## *configurações*
-- xinit/.xinitrc
-- i3/config
-- i3blocks/config
-- emacs/.emacs
-- picom/picom.conf
-- redshift/redshift.conf
-- rofi/config.rasi
-- gtk/settings.ini
-- icons/default
-- themes/arc-dark
-- wallpapers/wallpapers
-  

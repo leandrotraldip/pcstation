@@ -26,7 +26,7 @@ apt install -y --no-install-recommends stow picom redshift xwallpaper fonts-jetb
 apt install -y --no-install-recommends mpv sxiv zathura transmission-cli 
 
 # utilidades
-apt install -y --no-install-recommends rsync htop psensor
+apt install -y --no-install-recommends rsync htop
 
 # stow
 cd $HOME/pcstation
@@ -35,7 +35,11 @@ stow emacs i3 i3blocks xinit picom redshift rofi gtk bash wallpapers
 # flatpak
 apt install -y --no-install-recommends flatpak
 flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak install --user flatseal firefox ungoogled-chromium steam lutris discord reaper 
+flatpak install --user flatseal firefox ungoogled-chromium steam lutris discord reaper
+
+# PATH
+export PATH="$PATH:$HOME/.local/bin"
+export DBUS_SESSION_BUS_ADDRESS="unix:path=$XDG_RUNTIME_DIR/bus"
 
 # reboot
 systemctl reboot
