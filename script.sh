@@ -2,6 +2,10 @@
 
 # comandos para instalação
 
+# /etc/sources.list -> contrib non-free
+dpkg --add-architecture i386
+apt update -y
+
 # nvidia-driver
 apt install -y nvidia-driver
 
@@ -28,14 +32,16 @@ apt install -y --no-install-recommends mpv sxiv zathura transmission-cli
 # utilidades
 apt install -y --no-install-recommends rsync htop
 
+# programas
+apt install -y --no-install-recommends firefox-esr firefox-esr-l10n-pt-br steam-installer
+
+# lutris -> repo de terceiros pelo site do lutris
+# discord -> tar
+# reaper -> tar
+
 # stow
 cd $HOME/pcstation
 stow emacs i3 i3blocks xinit picom redshift rofi gtk bash wallpapers
-
-# flatpak
-apt install -y --no-install-recommends flatpak
-flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
-flatpak install --user flatseal firefox ungoogled-chromium steam lutris discord reaper
 
 # PATH
 export PATH="$PATH:$HOME/.local/bin"
