@@ -1,7 +1,7 @@
 # PCstation
 
 ## *a fazer*
-- [ ] login automatico 
+- [x] login automatico 
 - [x] grub 0
 - [x] workspace especifico de janela
 - [x] hotkey do systemctl suspend e poweroff
@@ -11,26 +11,24 @@
 - [ ] rsync fazendo backup no ssd externo com cron
 - [ ] nextcloud self-host
 - [ ] domínio e hospedagem
-- [ ] editar fstab para o ssd de 720gb montar com o sistema
+- [x] editar fstab para o ssd de 720gb montar com o sistema
 - [x] existe forma facil de montar pendrives pelo mount? ou na verdade nem é tao importante...
-- [x] shell script do apt, flatpak e stow
-- [x] flatpak remote-add --if-not-exists --user flathub https://dl.flathub.org/repo/flathub.flatpakrepo
+- [x] shell script do apt, tar e stow
 
 ## *sistema*
 - instalação mínima do *debian* no ssd de 240gb( /efi, /root , /home, /swap)
 - ssd externo montado por fora
 - sources.list com contrib, non-free e backports
 
-## *pacotes*
+*pacotes*
 
-*apt*
   - nvidia-driver
   - xinit
   - dbus-x11
   - i3-wm
   - i3blocks
   - rofi
-  - emacs
+  - emacs -> editor de texto, gerenciador de arquivos e terminal
   - git
   - wireplumber
   - pipewire-audio-clients-libraries
@@ -47,12 +45,12 @@
   - htop
   - stow
   - fonts-jetbrains-mono
-  - firefox-esr
-  - firefox-esr-l10n-pt-br
   - steam-installer
   - lutris
-  - reaper
-  - discord
+  - firefox-esr
+  - firefox-esr-l10n-pt-br
+  - reaper -> tar
+  - discord -> tar
   
 ## *configurações*
 - xinit/.xinitrc
