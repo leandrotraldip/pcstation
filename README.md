@@ -7,13 +7,13 @@
 - [x] hotkey do systemctl suspend e poweroff
 - [x] reaper funcionando com o pipewire-jack
 - [x] temas e ícones
-- [ ] ssh configurado
-- [ ] rsync fazendo backup no ssd externo com cron
-- [ ] nextcloud self-host
-- [ ] domínio e hospedagem
 - [x] editar fstab para o ssd de 720gb montar com o sistema
 - [x] existe forma facil de montar pendrives pelo mount? ou na verdade nem é tao importante...
 - [x] shell script do apt, tar e stow
+- [ ] ssh configurado com o emacs
+- [ ] rsync fazendo backup no ssd externo com cron
+- [ ] nextcloud self-host
+- [ ] domínio e hospedagem
 
 ## *sistema*
 - instalação mínima do *debian* no ssd de 240gb( /efi, /root , /home, /swap)
@@ -21,14 +21,13 @@
 - sources.list com contrib, non-free e backports
 
 *pacotes*
-
   - nvidia-driver
   - xinit
   - dbus-x11
   - i3-wm
   - i3blocks
   - rofi
-  - emacs -> editor de texto, gerenciador de arquivos e terminal
+  - emacs -> python, magit, vterm
   - git
   - wireplumber
   - pipewire-audio-clients-libraries
@@ -42,15 +41,14 @@
   - zathura
   - transmission-cli
   - rsync
-  - htop
   - stow
+  - cmake
   - fonts-jetbrains-mono
   - steam-installer
   - lutris
   - firefox-esr
   - firefox-esr-l10n-pt-br
   - reaper -> tar
-  - discord -> tar
   
 ## *configurações*
 - xinit/.xinitrc

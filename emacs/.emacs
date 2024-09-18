@@ -6,9 +6,16 @@
  '(custom-enabled-themes '(dracula))
  '(custom-safe-themes
    '("603a831e0f2e466480cdc633ba37a0b1ae3c3e9a4e90183833bc4def3421a961" "fee7287586b17efbfda432f05539b58e86e059e78006ce9237b8732fde991b4c" default))
- '(package-selected-packages '(fzf python markdown-mode magit dracula-theme)))
-(add-to-list 'package-archives
-             '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+ '(package-selected-packages '(vterm fzf python markdown-mode magit dracula-theme)))
+;;;
+(require 'package)
+(add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
+;; Comment/uncomment this line to enable MELPA Stable if desired.  See `package-archive-priorities`
+;; and `package-pinned-packages`. Most users will not need or want to do this.
+;;(add-to-list 'package-archives '("melpa-stable" . "https://stable.melpa.org/packages/") t)
+(package-initialize)
+;;;
+
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
