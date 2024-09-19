@@ -2,11 +2,9 @@
 
 # comandos para instalação
 
-# /etc/sources.list -> contrib non-free
+# nvidia-driver -> /etc/sources.list -> contrib non-free
 dpkg --add-architecture i386
 apt update -y
-
-# nvidia-driver
 apt install -y nvidia-driver
 
 # audio
@@ -21,23 +19,27 @@ sudo ldconfig
 apt install -y xinit dbus-x11 
 
 # sistema
-apt install -y --no-install-recommends i3-wm i3blocks rofi emacs git  
+apt install -y --no-install-recommends i3-wm i3blocks rofi emacs git
+
+# navegador
+apt install -y firefox-esr firefox-esr-l10n-pt-br
 
 # qualidade
 apt install -y --no-install-recommends stow picom redshift xwallpaper fonts-jetbrains-mono
 
 # multimidia
-apt install -y --no-install-recommends mpv sxiv zathura transmission-cli 
-
-# utilidades
-apt install -y --no-install-recommends rsync htop
+apt install -y --no-install-recommends mpv sxiv zathura transmission-cli
 
 # programas
-apt install -y --no-install-recommends firefox-esr firefox-esr-l10n-pt-br steam-installer
+apt install -y --no-install-recommends steam-installer lutris
 
-# lutris -> repo de terceiros pelo site do lutris
-# discord -> tar
+# utilidades
+apt install -y --no-install-recommends rsync cmake
+
 # reaper -> tar
+cd $HOME/Downloads
+wget https://www.reaper.fm/files/7.x/reaper722_linux_x86_64.tar.xz
+# tar -xvf 
 
 # stow
 cd $HOME/pcstation
