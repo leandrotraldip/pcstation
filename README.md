@@ -21,45 +21,58 @@
 - sources.list com contrib, non-free e backports
 
 *pacotes*
+- servidor de vídeo
   - nvidia-driver
   - xinit
   - dbus-x11
+- gerenciador de janelas
   - i3-wm
   - i3blocks
   - rofi
-  - emacs -> python, magit, vterm
+- navegador
+  - firefox-esr
+  - firefox-esr-l10n-pt-br
+- editor
+  - emacs -> python, magit
+  - cmake -> para o vterm
   - git
+- multimídia
   - wireplumber
   - pipewire-audio-clients-libraries
   - libspa-0.2-jack
   - pulsemixer
-  - picom
-  - redshift
-  - xwallpaper
   - sxiv
   - mpv
   - zathura
   - transmission-cli
-  - rsync
-  - stow
-  - cmake
-  - fonts-jetbrains-mono
+  - reaper -> tar
+- ajustes
+  - picom
+  - redshift
+  - xwallpaper
+- jogos
   - steam-installer
   - lutris
-  - firefox-esr
-  - firefox-esr-l10n-pt-br
-  - reaper -> tar
+- outros
+  - rsync
+  - stow
+  - fonts-jetbrains-mono
+
   
 ## *configurações*
-- xinit/.xinitrc
-- i3/config
-- i3blocks/config
-- emacs/.emacs
-- picom/picom.conf
-- redshift/redshift.conf
-- rofi/config.rasi
-- gtk/settings.ini
-- icons/default
-- themes/arc-dark
-- wallpapers/wallpapers
-- firefox/chrome
+- xorg
+  - xinit/.xinitrc
+- wm
+  - i3/config
+  - i3blocks/config
+  - rofi/config.rasi
+- qualidade de vida
+  - picom/picom.conf
+  - redshift/redshift.conf
+- editor
+  - emacs/.emacs
+- estética
+  - gtk/settings.ini
+  - icons/default
+  - themes/arc-dark
+  - wallpapers/wallpapers
