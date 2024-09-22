@@ -30,9 +30,9 @@ wget https://www.reaper.fm/files/7.x/reaper722_linux_x86_64.tar.xz
 
 # stow
 cd $HOME/pcstation
-stow emacs i3 i3blocks xinit picom redshift rofi gtk wallpapers
+stow emacs i3 xinit picom redshift rofi gtk
 
-# ajustes
+# bashrc
 export PATH="$PATH:$HOME/.local/bin"
 export DBUS_SESSION_BUS_ADDRESS="unix:path=$XDG_RUNTIME_DIR/bus"
 
