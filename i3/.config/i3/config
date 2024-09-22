@@ -221,10 +221,10 @@ gaps outer 10
 gaps inner 10
 
 #
-for_window [workspace="4"] floating enable
-for_window [workspace="5"] floating enable
+# for_window [workspace="4"] floating enable
+# for_window [workspace="5"] floating enable
 for_window [workspace="6"] floating enable
-for_window [workspace="4"] fullscreen enable
+# for_window [workspace="4"] fullscreen enable
 # for_window [class="REAPER"] fullscreen enable
 
 #
@@ -235,18 +235,21 @@ assign [class="REAPER"] 4
 assign [class="steam"] 5
 assign [class="Lutris"] 6
 assign [class="battle.net.exe"] 6
-assign [class="discord"] 7
+# assign [class="discord"] 7
 
 #
 exec picom -b
 # exec redshift -c $HOME/.config/redshift.conf
 exec redshift -l -27:-43
 exec xwallpaper --center $HOME/wallpapers/darkest.png
-# exec emacs
-exec flatpak run org.mozilla.firefox
+exec firefox-esr
+exec emacs
+exec steam
+exec lutris
 
 #
 bindsym $mod+Shift+S exec systemctl suspend
+# bindsym $mod+Shift+R exec systemctl reboot
 bindsym $mod+Shift+P exec systemctl poweroff
 
 # 

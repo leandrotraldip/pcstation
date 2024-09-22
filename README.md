@@ -1,18 +1,18 @@
 # PCstation
 
 ## *a fazer*
-- [x] login automatico 
-- [x] grub 0
-- [x] workspace especifico de janela
-- [x] temas e ícones
-- [x] editar fstab para o ssd de 720gb montar com o sistema
-- [ ] ssh configurado com o emacs
-- [ ] rsync fazendo backup no ssd externo com cron
-- [ ] nextcloud, dominio e hospedagem
+- login automatico 
+- grub 0
+- workspace especifico de janela
+- temas e ícones
+- editar fstab para o ssd de 720gb montar com o sistema
+- ssh configurado com o emacs
+- rsync fazendo backup no ssd externo com cron
+- nextcloud, dominio e hospedagem
 
 ## *sistema*
 - instalação mínima do *debian* no ssd de 240gb( /efi, /root , /home, /swap)
-- ssd externo montado por fora
+- ssd externo( /mnt/armazenamento)
 
 *pacotes*
 - servidor de vídeo
