@@ -191,7 +191,7 @@ bindsym $mod+r mode "resize"
 bar {
 #       status_command i3status
 	font pango:JetBrains Mono 9
-        status_command i3blocks
+        status_command i3status
 	position top
 #	i3bar_command i3bar --transparency
 #	padding 10px
@@ -216,7 +216,7 @@ client.placeholder      #282A36 #282A36 #F8F8F2 #282A36   #282A36
 client.background       #F8F8F2
 
 #
-for_window [class="^.*"] border pixel 0
+for_window [class="^.*"] border pixel 4
 gaps outer 10
 gaps inner 10
 
@@ -229,6 +229,7 @@ for_window [workspace="4"] fullscreen enable
 
 #
 assign [class="firefox"] 1
+assign [class="Firefox-esr"] 1
 assign [class="Emacs"] 2
 assign [class="REAPER"] 4
 assign [class="steam"] 5

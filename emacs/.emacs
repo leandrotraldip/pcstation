@@ -6,7 +6,8 @@
  '(custom-enabled-themes '(dracula))
  '(custom-safe-themes
    '("603a831e0f2e466480cdc633ba37a0b1ae3c3e9a4e90183833bc4def3421a961" "fee7287586b17efbfda432f05539b58e86e059e78006ce9237b8732fde991b4c" default))
- '(package-selected-packages '(vterm fzf python markdown-mode magit dracula-theme)))
+ '(package-selected-packages
+   '(bash-completion vterm fzf python markdown-mode magit dracula-theme)))
 ;;;
 (require 'package)
 (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/") t)
@@ -42,3 +43,5 @@
 ;; (desktop-save-mode 1)
 
 
+; completion com eshell
+(setq eshell-cmpl-cycle-completions nil)

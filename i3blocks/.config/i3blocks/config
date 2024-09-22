@@ -1,5 +1,5 @@
 [time]
-command=date '+%H:%M »'
+command=date '+%H:%M '
 interval=5
 min_width=1920
 align=right
