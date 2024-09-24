@@ -48,12 +48,9 @@
 - gtk/settings.ini
 
 ## ajustes
-- login automatico 
-- grub 0
-- workspace especifico de janela
-- temas e ícones
-- editar fstab para o ssd de 720gb montar com o sistema
-- ssh configurado com o emacs
+- login automatico -> https://wiki.archlinux.org/title/Getty#Automatic_login_to_virtual_console
+- grub 0 -> /etc/default/grub
+- editar fstab para o ssd de 720gb montar com o sistema -> https://www.linuxbabe.com/desktop-linux/how-to-automount-file-systems-on-linux
 - rsync fazendo backup no ssd externo com cron
 - nextcloud, dominio e hospedagem
 

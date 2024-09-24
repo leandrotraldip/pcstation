@@ -233,8 +233,8 @@ assign [class="Firefox-esr"] 1
 assign [class="Emacs"] 2
 assign [class="REAPER"] 4
 assign [class="steam"] 5
-assign [class="Lutris"] 6
-assign [class="battle.net.exe"] 6
+assign [class="Lutris"] 7
+assign [class="battle.net.exe"] 7
 # assign [class="discord"] 7
 
 #
@@ -259,3 +259,9 @@ bindsym $mod+minus scratchpad show
 # bar
 bindsym $mod+m bar mode invisible 
 bindsym $mod+n bar mode dock
+
+# picom toggle
+bindsym $mod+p exec --no-startup-id ~/scripts/picom-toggle.sh
+
+# layout saving
+exec --no-startup-id "i3-msg 'workspace 6; append_layout /home/leandro/.config/i3/workspace-6.json'"
